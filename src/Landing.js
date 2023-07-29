@@ -6,12 +6,11 @@ import { useState } from "react";
 import {MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
-//import {}
 
 function Landing(){
     return(
   <div>    
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
         <div className="container mx-auto">
            <img src={logo} style={{
             width: "10rem",
