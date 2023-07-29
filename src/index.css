@@ -2,4 +2,17 @@ body {
   margin: 0;
   background-color: #1a1d3b;
 }
+.nav-link{
+  color: white;
+  font-weight: bold;
+}
+.navbar{
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: large;
+  margin-right: 6rem;
+}
+.nav-item{
+  margin-right: 0.7rem;
+}
 
