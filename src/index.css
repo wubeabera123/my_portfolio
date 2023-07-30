@@ -61,3 +61,27 @@ body {
   width: 100%;
   height: 32rem;
 }
+#foot{
+  border: 1px solid;
+  padding-top: 15rem;
+  background-color:#202649;
+  width: 100%;
+  height: 28rem;
+}
+.circle {
+  border: 2px dotted gray;
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0,-70%);
+  margin: auto;
+}
+.line{
+  border: 0.1rem solid gray;
+  width: 100%;
+  margin-top: -12rem;
+}

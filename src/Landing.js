@@ -1,7 +1,7 @@
 import React from "react";
 //import "./index.css";
 import logo from "./Image/logo.png";
-import person from "./Image/person.png";
+import person from "./Image/person.jpg";
 import { useState } from "react";
 import {MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
@@ -48,14 +48,15 @@ function Landing(){
         width: "8rem",
         height: "2.3rem"
        }}>Welcome! I'M</button>
-       <h1 style={{color: "white",fontFamily: "serif",marginTop:"1rem"}}>Abdullah Al Sharif's</h1>
-       <h6 style={{color: "white"}}>Cyber Security Engineer</h6>
+       <h1 style={{color: "white",fontFamily: "serif",marginTop:"1rem"}}>Wubeshet Abera</h1>
+       <h6 style={{color: "white"}}>Frontend Developer</h6>
        <p style={{color: "white", marginTop: "2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
     </div>
     <div className="container">
        <img src={person} style={{
          width: "24rem",
-         marginTop: "4rem"
+         marginTop: "4rem",
+         
        }}/>
     </div>
     <div className="container">

@@ -1,6 +1,7 @@
 
 import './App.css';
 import Experience from './Experience';
+import Footer from './Footer';
 import Form from './Form';
 import Info from './Info';
 import Landing from "./Landing.js";
@@ -15,6 +16,7 @@ function App() {
        <Ports/>
        <Experience/>
        <Form/>
+       <Footer/>
     </div>
   );
 }
