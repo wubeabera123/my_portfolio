@@ -46,7 +46,7 @@ function Landing(){
     <div className="container " style={{marginTop:"6rem"}}>
        <button className="btn btn-danger" style={{
         width: "8rem",
-        height: "2.1rem"
+        height: "2.3rem"
        }}>Welcome! I'M</button>
        <h1 style={{color: "white",fontFamily: "serif",marginTop:"1rem"}}>Abdullah Al Sharif's</h1>
        <h6 style={{color: "white"}}>Cyber Security Engineer</h6>

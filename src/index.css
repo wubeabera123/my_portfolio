@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #1a1d3b;
+  background-color: #141730;
 }
 .nav-link{
   color: white;
@@ -48,4 +48,9 @@ body {
 }
 #values{
   margin-bottom: 20rem;
+}
+#port{
+  color: white;
+  font-size: 3rem;
+  font-family: serif;
 }
