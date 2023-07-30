@@ -4,7 +4,8 @@ import {TfiEmail} from "react-icons/tfi";
 import {MdOutlineLocationOn} from "react-icons/md";
 function Form(){
     return(
-   <div>
+ <div>
+    <div className="container d-flex">
       <div className="container" style={{marginTop: "8rem"}}>
         <h1 style={{color: "white", fontFamily: "serif",fontWeight: "bold"}}>Contact Us</h1>
         <p style={{color: "white"}}>Lorem ipsum dolor sit amet, consectetur leo lorem .<br/> Sed accumsan leo quis metus efficitur.</p>
@@ -30,10 +31,43 @@ function Form(){
               </div>
           </div>
       </div>
-      <div className="container"> 
-      <h1 style={{color: "white", fontFamily: "serif",fontWeight: "bold"}}>Drop a Line</h1>
+      <div className="container" style={{marginTop: "8rem"}}> 
+         <h1 style={{color: "white", fontFamily: "serif",fontWeight: "bold"}}>Drop a Line</h1>
+           <div className="container d-flex py-3">
+             <div className="container">
+               <div className="container">
+                 <div class="input-group mb-3" style={{width: "17rem",height: "3.8rem"}}>
+                    <input type="text" class="form-control" placeholder="Name" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
+                 </div>
+               </div>
+               <div className="container">
+                 <div class="input-group mb-3" style={{width: "17rem",height: "3.8rem"}}>
+                    <input type="text" class="form-control" placeholder="Email" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
+                 </div>
+               </div>
+              </div> 
+              <div className="container">
+               <div className="container">
+                 <div class="input-group mb-3" style={{width: "17rem",height: "3.8rem"}}>
+                    <input type="text" class="form-control" placeholder="Phone#" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
+                 </div>
+               </div>
+               <div className="container">
+                 <div class="input-group mb-3" style={{width: "17rem",height: "3.8rem"}}>
+                    <input type="text" class="form-control" placeholder="Budget" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
+                 </div>
+               </div>
+              </div> 
+           </div>
+           <div class="input-group" style={{width: "39.3rem",height: "7rem"}}>
+             <textarea class="form-control" placeholder="Message" style={{backgroundColor: "#141730",borderColor: "gray",marginLeft: "2.3rem"}}></textarea>
+           </div>
       </div>
-   </div>
+    </div>
+    <div className="d-flex justify-content-center py-5">
+      <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>Submit</button>
+    </div>
+</div>
     )
 }
 export default Form;

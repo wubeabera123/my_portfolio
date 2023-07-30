@@ -33,6 +33,7 @@ function Ports(){
         <div className="d-flex justify-content-center py-5">
            <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>View All</button>
         </div>
+        
       </div>
     )
 }
