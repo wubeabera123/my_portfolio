@@ -1,6 +1,6 @@
 import React from "react";
 //import "./index.css";
-import logo from "./Image/logo.png";
+import logo from "./Image/logo.jpg";
 import person from "./Image/person.jpg";
 import { useState } from "react";
 import {MdFacebook} from "react-icons/md";
@@ -46,7 +46,9 @@ function Landing(){
     <div className="container " style={{marginTop:"6rem"}}>
        <button className="btn btn-danger" style={{
         width: "8rem",
-        height: "2.3rem"
+        height: "2.3rem",
+        backgroundColor: "#54272f",
+        
        }}>Welcome! I'M</button>
        <h1 style={{color: "white",fontFamily: "serif",marginTop:"1rem"}}>Wubeshet Abera</h1>
        <h6 style={{color: "white"}}>Frontend Developer</h6>
