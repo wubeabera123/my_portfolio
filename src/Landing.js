@@ -10,7 +10,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 function Landing(){
     return(
   <div>    
-    <nav className="navbar navbar-expand-lg">
+    <nav className="container navbar navbar-expand-lg d-flex">
         <div className="container mx-auto">
            <img src={logo} style={{
             width: "10rem",

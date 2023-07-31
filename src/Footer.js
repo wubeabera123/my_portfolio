@@ -9,7 +9,7 @@ function Footer(){
              <section>
                <p style={{fontSize: "2.6rem", color: "white", fontFamily: "serif",fontWeight: "bold"}}>Lets Say Hi</p>
                <p style={{fontSize: "1rem", color: "white",fontWeight: "bold",color: "lightblue"}}>wubeabera123@gmail.com</p>
-               <section style={{fontSize: "2rem",marginRight: "-2rem"}}>
+               <section style={{fontSize: "2rem",marginRight: "-2rem", verticalAlign: "middle",display: "grid", display: ""}}>
                  <MdFacebook color="lightblue"/>
                  <FaTwitter color="lightblue"/>
                  <FaInstagramSquare color="lightblue"/>
