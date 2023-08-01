@@ -3,13 +3,13 @@ import React from "react";
 import logo from "./Image/logo.jpg";
 import person from "./Image/person.jpg";
 import { useState } from "react";
-import {MdFacebook} from "react-icons/md";
+import {MdBorderColor, MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
 
 function Landing(){
     return(
-  <div>    
+  <div style={{maxWidth: "100%"}}>    
     <nav className="container navbar navbar-expand flex flex-nowrap">
         <div className="container mx-auto">
            <img src={logo} style={{
@@ -36,22 +36,20 @@ function Landing(){
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{height: "3rem",width: "8rem",fontSize: "small",marginTop: "-0.5rem"}}>Download CV</button>
+                <button className="btn btn-danger" style={{height: "2.7rem",width: "6.6rem",fontSize: "small",marginTop: "-0.2rem"}}>Download CV</button>
               </li>
            </ul>
         </div>
     </nav>
    <div className="container" style={{display: "flex"}}>
     <div className="container " style={{marginTop:"8rem"}}>
-       <button className="btn btn-danger" style={{
+       <button className="btn btn-dark " style={{
         width: "8rem",
         height: "2.3rem",
-        backgroundColor: "#54272f",
-        
        }}>Welcome! I'M</button>
        <p style={{color: "white",fontFamily: "serif",marginTop:"1rem",fontSize:"3rem",fontWeight: "bold"}}>Wubeshet Abera</p>
-       <h6 style={{color: "white"}}>Frontend Developer</h6>
-       <p style={{color: "white", marginTop: "2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
+       <h6 style={{color: "#d2d8d7",marginTop: "-1rem"}}>Frontend Developer</h6>
+       <p style={{color: "lightblue", marginTop: "2rem",fontSize: "0.9rem",fontWeight: "bold",lineHeight: "1.8rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
     </div>
     <div style={{display: "flex"}}>
     <div className="container" style={{marginRight: "3rem"}}>
