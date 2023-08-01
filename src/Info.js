@@ -14,7 +14,7 @@ function Info(){
             </section>
             <section id="bord2">
                 <BsPeopleFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
-                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>50+</h1>
+                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
                 <h3 style={{textAlign: "center", color: "white"}}>Cleints</h3>
             </section>
             <section id="bord3">
