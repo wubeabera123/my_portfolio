@@ -36,7 +36,7 @@ function Landing(){
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{height: "3rem",width: "8rem",fontSize: "small"}}>Download CV</button>
+                <button className="btn btn-danger" style={{height: "3rem",width: "8rem",fontSize: "small",marginTop: "-0.5rem"}}>Download CV</button>
               </li>
            </ul>
         </div>
@@ -49,20 +49,20 @@ function Landing(){
         backgroundColor: "#54272f",
         
        }}>Welcome! I'M</button>
-       <h1 style={{color: "white",fontFamily: "serif",marginTop:"1rem"}}>Wubeshet Abera</h1>
+       <p style={{color: "white",fontFamily: "serif",marginTop:"1rem",fontSize:"3rem",fontWeight: "bold"}}>Wubeshet Abera</p>
        <h6 style={{color: "white"}}>Frontend Developer</h6>
        <p style={{color: "white", marginTop: "2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
     </div>
     <div style={{display: "flex"}}>
-    <div className="container" style={{marginRight: "-8rem"}}>
+    <div className="container" style={{marginRight: "3rem"}}>
        <img src={person} style={{
          width: "24rem",
-         marginTop: "4rem",
+         marginTop: "4rem"
        }}/>
     </div>
-    <div style={{marginTop: "10rem"}}>
-       <h6 className="vertical-text" style={{color: "red", transform: "rotate(90deg)", whiteSpace: "nowrap"}}>FOLLOW ME ON</h6> 
-       <section className="d-flex flex-column" style={{marginTop: "7rem",marginLeft: "10rem"}}>
+    <div style={{marginTop: "10rem",marginRight: "-9rem"}}>
+       <h6 className="vertical-text" style={{color: "red", transform: "rotate(90deg)", whiteSpace: "nowrap",marginRight: "2rem"}}>FOLLOW ME ON</h6> 
+       <section className="d-flex flex-column" style={{marginTop: "7rem",marginLeft: "3.1rem",}}>
         <a href="https://www.facebook.com/"><MdFacebook color = "red"/></a>
         <a href="#"><FaTwitter color = "red"/></a>
         <a href="#"><FaLinkedinIn color="red"/></a>
