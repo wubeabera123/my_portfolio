@@ -3,7 +3,7 @@ import React from "react";
 function Experience(){
     return(
           <div id="exp">
-            <div style={{textAlign: "center", color: "white",marginTop: "-12rem"}}>
+            <div style={{textAlign: "center", color: "#e8d7d7",marginTop: "-12rem"}}>
               <h3 style={{fontFamily: "serif",fontSize: "3rem"}}>My Experience</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan leo quis metus efficitur, non euismod nulla gravida. Nulla facilisi.<br/> Duis imperdiet consequat mauris, eget fermentum ante commodo vel.</p>
             </div>
