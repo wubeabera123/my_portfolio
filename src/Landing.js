@@ -58,7 +58,7 @@ function Landing(){
          marginTop: "4rem"
        }}/>
     </div>
-    <div style={{marginTop: "10rem",marginRight: "-9rem"}}>
+    <div style={{marginTop: "10rem",marginRight: "-8rem"}}>
        <h6 className="vertical-text" style={{color: "red", transform: "rotate(90deg)", whiteSpace: "nowrap",marginRight: "2rem"}}>FOLLOW ME ON</h6> 
        <section className="d-flex flex-column" style={{marginTop: "7rem",marginLeft: "3.1rem",}}>
         <a href="https://www.facebook.com/"><MdFacebook color = "red"/></a>
