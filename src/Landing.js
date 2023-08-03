@@ -52,13 +52,13 @@ function Landing(){
        <p style={{color: "lightblue", marginTop: "2rem",fontSize: "0.9rem",fontWeight: "bold",lineHeight: "1.8rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
     </div>
     <div style={{display: "flex"}}>
-    <div className="container" style={{marginRight: "3rem"}}>
+    <div className="container" style={{marginRight: "1rem"}}>
        <img src={person} style={{
          width: "24rem",
          marginTop: "4rem"
        }}/>
     </div>
-    <div style={{marginTop: "10rem",marginRight: "-8rem"}}>
+    <div style={{marginTop: "10rem",marginRight: "-7.2rem"}}>
        <h6 className="vertical-text" style={{color: "red", transform: "rotate(90deg)", whiteSpace: "nowrap",marginRight: "2rem"}}>FOLLOW ME ON</h6> 
        <section className="d-flex flex-column" style={{marginTop: "7rem",marginLeft: "3.1rem",}}>
         <a href="https://www.facebook.com/"><MdFacebook color = "red"/></a>
