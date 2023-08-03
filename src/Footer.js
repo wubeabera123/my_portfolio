@@ -9,10 +9,10 @@ function Footer(){
              <section>
                <p style={{fontSize: "2.6rem", color: "white", fontFamily: "serif",fontWeight: "bold"}}>Lets Say Hi</p>
                <p style={{fontSize: "1rem", color: "white",fontWeight: "bold",color: "lightblue"}}>wubeabera123@gmail.com</p>
-               <section style={{fontSize: "2rem",}} className="d-flex justify-content-evenly">
-                 <MdFacebook color="lightblue"/>
-                 <FaTwitter color="lightblue"/>
-                 <FaInstagramSquare color="lightblue"/>
+               <section style={{fontSize: "2rem",cursor: "pointer"}} className="d-flex justify-content-evenly">
+                 <a href="https://www.facebook.com/"><MdFacebook color="lightblue"/></a>
+                 <a href="https://twitter.com/home"><FaTwitter color="lightblue"/></a>
+                 <a href="https://www.instagram.com/?theme=dark"><FaInstagramSquare color="lightblue"/></a>
                </section>
              </section>
           </div>
