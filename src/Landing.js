@@ -2,7 +2,6 @@ import React from "react";
 //import "./index.css";
 import logo from "./Image/logo.png";
 import person from "./Image/person.png";
-import { useState } from "react";
 import {MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
@@ -39,7 +38,6 @@ function Landing(){
                 <button className="btn btn-danger">Download CV</button>
               </li>
            </ul>
-           
         </div>
     </nav>
    <div className=" container d-flex justify-content-between">
