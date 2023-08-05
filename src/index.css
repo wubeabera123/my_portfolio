@@ -19,7 +19,7 @@ nav li:last-child {
 .nav-link{
   color: #d2d8d7;
   font-weight: bold;
-  font-size: 1.1vw;
+  font-size: 0.9rem;
 }
 .navbar{
   margin-top: 2rem;
@@ -27,7 +27,7 @@ nav li:last-child {
   font-family: Arial, Helvetica, sans-serif;
 }
 .nav-item{
-  justify-content: space-between 
+  justify-content: space-evenly;
 }
 #info{
   border: 1px solid;
@@ -98,4 +98,9 @@ nav li:last-child {
   border: 0.1rem solid gray;
   width: 100%;
   margin-top: -12rem;
+}
+nav{
+  @media screen and (max-width: 767px){
+
+  }
 }

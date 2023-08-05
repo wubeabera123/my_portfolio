@@ -13,7 +13,7 @@ function Landing(){
     <nav className="container navbar navbar-expand flex flex-nowrap">
         <div className="container mx-auto">
            <img src={logo} style={{
-            width: "30%",
+            width: "6rem",
             height: "3rem",
             borderRadius: "100rem"
             }} className="logo"/>
