@@ -8,14 +8,14 @@ import f from "./Image/f.png";
 function Ports(){
     return(
       <div>
-        <div className="container col-sm-12 d-flex justify-content-round">
+        <div className="container col-sm-12 d-flex justify-content-evenly">
           <div className="container" style={{marginTop: "6rem",width: "50%"}}>
              <p id="port" style={{fontSize: "3.5vw"}}>Portfolio</p>
              <p style={{color: "white",fontSize: "1vw"}}>Preparing portfolio lorem pages fonts <br/> pages lorem portfolio Preparing</p>
           </div>
           
           <div class="btn-group" style={{height: "2.8rem",width: "60rem",marginTop: "8rem",width:"50%"}}>
-             <button type="button" class="btn btn-danger" style={{fontSize: "1.3vw"}}>All Work</button>
+             <button type="button" class="btn btn-danger" style={{fontSize: "1.3vw",paddingRight: "1rem"}}>All Work</button>
              <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "1.3vw"}}>Personal Projects</button>
              <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "1.3vw"}}>Proffesional Projects</button>
           </div>
