@@ -19,7 +19,7 @@ nav li:last-child {
 .nav-link{
   color: #d2d8d7;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
 }
 .navbar{
   margin-top: 2rem;

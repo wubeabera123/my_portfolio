@@ -13,7 +13,7 @@ function Landing(){
     <nav className="container navbar navbar-expand flex flex-nowrap">
         <div className="container mx-auto">
            <img src={logo} style={{
-            width: "10rem",
+            width: "30%",
             height: "3rem",
             borderRadius: "100rem"
             }} className="logo"/>
@@ -36,7 +36,7 @@ function Landing(){
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{height: "2.7rem",width: "6.6rem",fontSize: "small",marginTop: "-0.2rem"}}>Download CV</button>
+                <button className="btn btn-danger" style={{height: "2.7rem",width: "100%",fontSize: "0.9vw",marginTop: "-0.2rem"}}>Download CV</button>
               </li>
            </ul>
         </div>
