@@ -9,7 +9,7 @@ function Ports(){
     return(
       <div>
         <div className="container col-sm-12 d-flex justify-content-evenly">
-          <div className="container" style={{marginTop: "6rem",width: "50%"}}>
+          <div className="container" style={{marginTop: "6.6rem",width: "50%"}}>
              <p id="port" style={{fontSize: "3.5vw"}}>Portfolio</p>
              <p style={{color: "white",fontSize: "1vw"}}>Preparing portfolio lorem pages fonts <br/> pages lorem portfolio Preparing</p>
           </div>
