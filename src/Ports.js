@@ -14,10 +14,10 @@ function Ports(){
              <p style={{color: "white"}}>Preparing portfolio lorem pages fonts <br/> pages lorem portfolio Preparing</p>
           </div>
           
-          <div class="btn-group" style={{height: "3.5rem",maxWidth: "20rem",marginTop: "8rem"}}>
-              <a href="#" class="centered-link btn btn-danger " style={{width: "40%",fontSize: "0.8rem"}}><p style={{ marginTop: "0.8rem"}}>All Work</p></a>
-              <a href="#"  style={{maxWidth: "20rem",backgroundColor: "#211930", textDecorationLine: "none", color: "white",width: "15rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Personal</p></a>
-              <a href="#"  style={{maxWidth: "20rem",backgroundColor: "#211930", textDecorationLine: "none", color: "white", borderTopRightRadius: "0.5rem", borderBottomRightRadius: "0.5rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Proffesional</p></a>
+          <div class="btn-group" style={{height: "3.5rem",width: "60%",marginTop: "8rem"}}>
+              <a href="#" class="centered-link btn btn-danger " style={{width: "60%",fontSize: "0.8rem"}}><p style={{ marginTop: "0.8rem"}}>All Work</p></a>
+              <a href="#"  style={{width: "30%",backgroundColor: "#211930", textDecorationLine: "none", color: "white",width: "15rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Personal</p></a>
+              <a href="#"  style={{width: "70%",backgroundColor: "#211930", textDecorationLine: "none", color: "white", borderTopRightRadius: "0.5rem", borderBottomRightRadius: "0.5rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Proffesional</p></a>
           </div>
         </div>
         <div className="container d-flex py-3 justify-content-between">
