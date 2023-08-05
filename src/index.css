@@ -3,6 +3,11 @@ body {
   background-color: #141730;
   
 }
+nav{
+  @media screen and (max-width: 767px){
+
+  }
+}
 nav ul{
   list-style: none;
   margin: 0;
@@ -98,9 +103,4 @@ nav li:last-child {
   border: 0.1rem solid gray;
   width: 100%;
   margin-top: -12rem;
-}
-nav{
-  @media screen and (max-width: 767px){
-
-  }
 }

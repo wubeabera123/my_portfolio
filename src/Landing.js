@@ -36,7 +36,7 @@ function Landing(){
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{height: "2.7rem",width: "100%",fontSize: "0.9vw",marginTop: "-0.2rem"}}>Download CV</button>
+                <button className="btn btn-danger" style={{fontSize: "0.9rem"}}>Download CV</button>
               </li>
            </ul>
         </div>
