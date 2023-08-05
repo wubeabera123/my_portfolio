@@ -7,23 +7,23 @@ function Info(){
     return(
        <div id="info">
           <div style={{marginTop: "-10rem"}} className="container d-flex justify-content-between" id="values">
-            <section id="bord1">
-                <RiAwardFill class="img-fluid mx-auto rounded" color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
+            <section id="bord1" className="sm:">
+                <RiAwardFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
                 <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
                 <h3 style={{textAlign: "center", color: "white"}}>Awards</h3>
             </section>
-            <section id="bord2">
-                <BsPeopleFill class="img-fluid mx-auto rounded" color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
+            <section id="bord2" className="">
+                <BsPeopleFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
                 <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
                 <h3 style={{textAlign: "center", color: "white"}}>Cleints</h3>
             </section>
-            <section id="bord3">
-                <GiCalendarHalfYear class="img-fluid mx-auto rounded" color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+            <section id="bord3" className="">
+                <GiCalendarHalfYear color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                 <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
                 <h3 style={{textAlign: "center", color: "white"}}>Years <br/>Experience</h3>
             </section>
-            <section id="bord4">
-                <GoProjectSymlink class="img-fluid mx-auto rounded" color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+            <section id="bord4" className="">
+                <GoProjectSymlink color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                 <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>10+</h1>
                 <h3 style={{textAlign: "center", color: "white"}}>Projects</h3>
             </section>

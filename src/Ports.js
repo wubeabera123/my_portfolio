@@ -21,14 +21,14 @@ function Ports(){
           </div>
         </div>
         <div className="container d-flex py-3 justify-content-between">
-           <img src={a} style={{borderRadius: "0.5rem"}}/>
-           <img src={b} style={{borderRadius: "0.5rem"}}/>
-           <img src={c} style={{borderRadius: "0.5rem"}}/>
+           <img src={a} style={{borderRadius: "0.5rem", width: "30%"}}/>
+           <img src={b} style={{borderRadius: "0.5rem", width: "30%"}}/>
+           <img src={c} style={{borderRadius: "0.5rem", width: "30%"}}/>
         </div>
         <div className="container d-flex py-3 justify-content-between">
-           <img src={d} style={{borderRadius: "0.5rem"}}/>
-           <img src={e} style={{borderRadius: "0.5rem"}}/>
-           <img src={f} style={{borderRadius: "0.5rem"}}/>
+           <img src={d} style={{borderRadius: "0.5rem", width: "30%"}}/>
+           <img src={e} style={{borderRadius: "0.5rem", width: "30%"}}/>
+           <img src={f} style={{borderRadius: "0.5rem", width: "30%"}}/>
         </div>
         <div className="d-flex justify-content-center py-5">
            <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>View All</button>
