@@ -8,16 +8,16 @@ import f from "./Image/f.png";
 function Ports(){
     return(
       <div>
-        <div className="container d-flex">
+        <div className="container d-flex justify-content-evenly">
           <div className="container" style={{marginTop: "6rem"}}>
              <p id="port">Portfolio</p>
              <p style={{color: "white"}}>Preparing portfolio lorem pages fonts <br/> pages lorem portfolio Preparing</p>
           </div>
           
-          <div class="btn-group" style={{height: "3.5rem", width: "60rem",marginTop: "8rem"}}>
-              <a href="#" class="btn btn-danger"><p style={{marginTop: "0.5rem"}}>All Work</p></a>
-              <a href="#" style={{backgroundColor: "#211930", textDecorationLine: "none", color: "white",width: "15rem"}}><p style={{textAlign: "center",marginTop: "0.8rem"}}>Personal Project</p></a>
-              <a href="#" style={{backgroundColor: "#211930", textDecorationLine: "none", color: "white", borderTopRightRadius: "0.5rem", borderBottomRightRadius: "0.5rem"}}><p style={{textAlign: "center",marginTop: "0.8rem"}}>Professional Projects</p></a>
+          <div class="btn-group" style={{height: "3.5rem",width: "60%",marginTop: "8rem"}}>
+              <a href="#" class="centered-link btn btn-danger " style={{width: "60%",fontSize: "0.8rem"}}><p style={{ marginTop: "0.8rem"}}>All Work</p></a>
+              <a href="#"  style={{width: "30%",backgroundColor: "#211930", textDecorationLine: "none", color: "white",width: "15rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Personal</p></a>
+              <a href="#"  style={{width: "70%",backgroundColor: "#211930", textDecorationLine: "none", color: "white", borderTopRightRadius: "0.5rem", borderBottomRightRadius: "0.5rem",fontSize: "1rem"}}><p style={{textAlign: "center",marginTop: "1.2rem"}}>Proffesional</p></a>
           </div>
         </div>
         <div className="container d-flex py-3 justify-content-between">
