@@ -1,8 +1,8 @@
 import React from "react";
-//import "./index.css";
+import "./index.css";
 import logo from "./Image/logo.jpg";
 import person from "./Image/person.jpg";
-import { useState } from "react";
+//import { useState } from "react";
 import {MdBorderColor, MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
@@ -10,7 +10,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 function Landing(){
     return(
   <div>    
-    <nav className="container navbar navbar-expand-lg py-5">
+    <nav className="container navbar navbar-expand-md py-4">
         <div className="container">
            <img src={logo} style={{
             width: "6rem",
@@ -21,9 +21,9 @@ function Landing(){
           <span class="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul className="navbar-nav mr-auto">
+           <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">About me</a>
+                <a className="nav-link" href="#">About</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Services</a>
@@ -38,7 +38,7 @@ function Landing(){
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{fontSize: "0.9rem",minHeight: "2.5rem"}}>Download CV</button>
+                <button className="btn btn-danger" style={{fontSize: "0.9rem",minHeight: "2.5rem",width: "7.2rem"}}>Download CV</button>
               </li>
            </ul>
         </div>
