@@ -48,14 +48,14 @@ function Landing(){
    <div className="container d-flex justify-content-between">
     <div className="container " style={{marginTop:"8rem"}}>
        <button className="btn btn-dark " style={{
-        width: "8rem",
+        width: "100%rem",
         height: "2.3rem",
        }}>Welcome! I'M</button>
        <p style={{color: "white",fontFamily: "serif",marginTop:"0.5rem",fontSize:"4vw",fontWeight: "bold"}}>Wubeshet Abera</p>
        <p style={{color: "#d2d8d7",marginTop: "-1rem",fontSize: "1.5vw"}}>Frontend Developer</p>
-       <p style={{color: "lightblue", marginTop: "2rem",fontSize: "1vw",fontWeight: "bold",lineHeight: "1.8rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a nisl vel mauris egestas<br/> bibendum. Sed hendrerit, ex vel faucibus gravida, tellus sapien vestibulum velit</p>
+       <p style={{color: "lightblue", marginTop: "2rem",fontSize: "1.2vw",fontWeight: "bold",lineHeight: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a nisl <br/>vel mauris egestas bibendum. Sed hendrerit, <br/>ex vel faucibus gravida, tellus sapien vestibulum velit</p>
        <div style={{display: "flex"}}>
-       <h6  style={{color: "red",fontSize: "1.5vw"}}>FOLLOW ME ON<section  style={{fontSize: "1.5vw",marginTop: "0.7rem"}}>
+       <h6  style={{color: "red",fontSize: "1.5vw"}}>FOLLOW ME ON<section  style={{fontSize: "1.5vw",marginTop: "0.9rem"}}>
         <a href="https://www.facebook.com/" style={{marginRight: "1rem"}}><MdFacebook color = "red"/></a>
         <a href="#" style={{marginRight: "1rem"}}><FaTwitter color = "red"/></a>
         <a href="#"><FaLinkedinIn color="red"/></a>
