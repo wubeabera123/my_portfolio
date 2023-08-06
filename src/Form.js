@@ -31,7 +31,7 @@ function Form(){
               </div>
           </div>
       </div>
-      <div className="container" style={{marginTop: "7.5rem"}}> 
+      <div className="container" style={{marginTop: "8rem"}}> 
          <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Drop a Line</p>
   <div class="container">
       <div className="d-flex">
