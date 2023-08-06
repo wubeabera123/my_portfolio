@@ -34,7 +34,7 @@ function Form(){
       <div className="container" style={{marginTop: "7.5rem"}}> 
          <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Drop a Line</p>
   <div class="container">
-      <div className="d-flex" style={{marginLeft: "-5rem"}}>
+      <div className="d-flex">
         <div class="row">
            <div class="col">
               <div class="input-group">
@@ -44,17 +44,17 @@ function Form(){
         </div>
        <div class="row">
            <div class="col">
-              <div class="input-group">
+              <div class="input-group mr-3">
                 <input type="email" class="form-control" placeholder="Email" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
                </div>
             </div>
          </div>
        </div>  
-       <div className="d-flex" style={{marginLeft: "-5rem"}}>
+       <div className="d-flex justify-content-between">
          <div class="row">
             <div class="col">
                <div class="input-group mt-3">
-                  <input type="text" class="form-control" placeholder="Phone" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
+                  <input type="text" class="form-control" placeholder="Phone#" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
                </div>
             </div>
         </div>
@@ -66,7 +66,6 @@ function Form(){
             </div>
          </div>
          </div>
-            <div style={{marginLeft: "-5rem"}}>
              <div class="row">
                <div class="col">
                   <div class="input-group mt-4">
@@ -76,7 +75,6 @@ function Form(){
                    <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>Submit</button>
                  </div>
                </div>
-              </div>
             </div>
          </div>
       </div>
