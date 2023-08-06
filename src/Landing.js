@@ -13,7 +13,7 @@ function Landing(){
     <nav className="container navbar navbar-expand-md py-4 navbar-light">
         <div className="container">
            <img src={logo} style={{
-            width: "20%",
+            width: "4rem",
             height: "3rem",
             }} className="logo"/>
         </div>
