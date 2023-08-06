@@ -10,18 +10,20 @@ import {FaLinkedinIn} from "react-icons/fa";
 function Landing(){
     return(
   <div>    
-    <nav className="container navbar navbar-expand-md py-4">
+    <nav className="container navbar navbar-expand-md py-4 navbar-light">
         <div className="container">
            <img src={logo} style={{
             width: "6rem",
             height: "4rem",
             }} className="logo"/>
         </div>
+        <div className="ms-auto" style={{marginTop: "-4rem"}}> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
         </button>
+        </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul className="navbar-nav">
+           <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#">About</a>
               </li>

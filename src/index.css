@@ -11,8 +11,7 @@ nav{
 nav ul{
   list-style: none;
   margin: 0;
-  padding: 0;
-  padding-right: 1.8rem;  
+  padding: 0; 
 }
 .nav-link{
   color: #d2d8d7;
