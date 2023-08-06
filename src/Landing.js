@@ -43,33 +43,32 @@ function Landing(){
            </ul>
         </div>
     </nav>
-   <div className="container" style={{display: "flex"}}>
+   <div className="container d-flex justify-content-between">
     <div className="container " style={{marginTop:"8rem"}}>
        <button className="btn btn-dark " style={{
         width: "8rem",
         height: "2.3rem",
        }}>Welcome! I'M</button>
-       <p style={{color: "white",fontFamily: "serif",marginTop:"1rem",fontSize:"3rem",fontWeight: "bold"}}>Wubeshet Abera</p>
-       <h6 style={{color: "#d2d8d7",marginTop: "-1rem"}}>Frontend Developer</h6>
-       <p style={{color: "lightblue", marginTop: "2rem",fontSize: "0.9rem",fontWeight: "bold",lineHeight: "1.8rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Nullam a nisl vel mauris egestas bibendum. Sed hendrerit,<br/> ex vel faucibus gravida, tellus sapien vestibulum velit</p>
+       <p style={{color: "white",fontFamily: "serif",marginTop:"0.5rem",fontSize:"4vw",fontWeight: "bold"}}>Wubeshet Abera</p>
+       <p style={{color: "#d2d8d7",marginTop: "-1rem",fontSize: "1.5vw"}}>Frontend Developer</p>
+       <p style={{color: "lightblue", marginTop: "2rem",fontSize: "1vw",fontWeight: "bold",lineHeight: "1.8rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a nisl vel mauris egestas<br/> bibendum. Sed hendrerit, ex vel faucibus gravida, tellus sapien vestibulum velit</p>
+       <div style={{display: "flex"}}>
+       <h6  style={{color: "red",fontSize: "1.5vw"}}>FOLLOW ME ON<section  style={{fontSize: "1.5vw",marginTop: "0.7rem"}}>
+        <a href="https://www.facebook.com/" style={{marginRight: "1rem"}}><MdFacebook color = "red"/></a>
+        <a href="#" style={{marginRight: "1rem"}}><FaTwitter color = "red"/></a>
+        <a href="#"><FaLinkedinIn color="red"/></a>
+       </section></h6> 
+       
     </div>
-    <div style={{display: "flex"}}>
-    <div className="container" style={{marginRight: "1rem"}}>
+    </div>
+    <div className="">
        <img src={person} style={{
-         width: "24rem",
-         marginTop: "4rem"
+         width: "80%",
+         marginTop: "8rem",
+         marginRight: "10rem"
        }}/>
     </div>
-    <div style={{marginTop: "10rem",marginRight: "-7.2rem"}}>
-       <h6 className="vertical-text" style={{color: "red", transform: "rotate(90deg)", whiteSpace: "nowrap",marginRight: "2rem"}}>FOLLOW ME ON</h6> 
-       <section className="d-flex flex-column" style={{marginTop: "7rem",marginLeft: "3.2rem",lineHeight: "2.5rem"}}>
-        <a href="https://www.facebook.com/"><MdFacebook color = "red"/></a>
-        <a href="#"><FaTwitter color = "red"/></a>
-        <a href="#"><FaLinkedinIn color="red"/></a>
-       </section>
-    </div>
-    </div>
-  </div> 
+  </div>
 </div> 
     );
 }
