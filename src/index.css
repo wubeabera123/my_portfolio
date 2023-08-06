@@ -35,25 +35,25 @@ nav ul{
 #bord1{
   border: dotted rgb(90, 30, 40) 0.3rem;
   width: 20%;
-  height: 12rem;
+  min-height: 12rem;
   border-top-right-radius: 2rem;
 }
 #bord2{
   border: solid rgb(90, 30, 60) 0.3rem;
   width: 20%;
-  height: 12rem;
+  min-height: 12rem;
   border-top-right-radius: 2rem;
 }
 #bord3{
   border: dotted rgb(90, 30, 60) 0.3rem;
   width: 20%;
-  height: 12rem;
+  min-height: 12rem;
   border-top-right-radius: 2rem;
 }
 #bord4{
   border: dotted rgb(90, 30, 60) 0.3rem;
   width: 20%;
-  height: 12rem;
+  min-height: 12rem;
   border-top-right-radius: 2rem;
 }
 #values{
