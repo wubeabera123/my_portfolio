@@ -8,24 +8,24 @@ function Info(){
        <div id="info">
           <div style={{marginTop: "-10rem"}} className="container d-flex justify-content-between" id="values">
             <section id="bord1" className="sm:">
-                <RiAwardFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
-                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
-                <h3 style={{textAlign: "center", color: "white"}}>Awards</h3>
+                <RiAwardFill color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/>
+                <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>00</p>
+                <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Awards</p>
             </section>
             <section id="bord2" className="">
-                <BsPeopleFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
-                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
-                <h3 style={{textAlign: "center", color: "white"}}>Cleints</h3>
+                <BsPeopleFill color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/>
+                <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>00</p>
+                <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Cleints</p>
             </section>
             <section id="bord3" className="">
-                <GiCalendarHalfYear color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
-                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>01</h1>
-                <h3 style={{textAlign: "center", color: "white"}}>Years <br/>Experience</h3>
+                <GiCalendarHalfYear color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+                <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>01</p>
+                <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Years <br/>Experience</p>
             </section>
             <section id="bord4" className="">
-                <GoProjectSymlink color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
-                <h1 style={{textAlign: "center", color: "white", fontWeight: "bold"}}>10+</h1>
-                <h3 style={{textAlign: "center", color: "white"}}>Projects</h3>
+                <GoProjectSymlink color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+                <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>4+</p>
+                <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Projects</p>
             </section>
           </div>
        </div>
