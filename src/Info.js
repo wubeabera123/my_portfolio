@@ -7,22 +7,22 @@ function Info(){
     return(
        <div id="info">
           <div style={{marginTop: "-10rem"}} className="container d-flex justify-content-between" id="values">
-            <section id="bord1" className="sm:">
+            <section id="bord1">
                 <RiAwardFill color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/>
                 <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>00</p>
                 <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Awards</p>
             </section>
-            <section id="bord2" className="">
+            <section id="bord2">
                 <BsPeopleFill color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/>
                 <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>00</p>
                 <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Cleints</p>
             </section>
-            <section id="bord3" className="">
+            <section id="bord3">
                 <GiCalendarHalfYear color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                 <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>01</p>
                 <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Years <br/>Experience</p>
             </section>
-            <section id="bord4" className="">
+            <section id="bord4">
                 <GoProjectSymlink color="red" style={{fontSize: "3vw", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                 <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3vw"}}>4+</p>
                 <p style={{textAlign: "center", color: "white",fontSize: "2vw",marginTop: "-1rem"}}>Projects</p>
