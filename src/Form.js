@@ -6,7 +6,7 @@ function Form(){
     return(
  <div>
     <div className="container d-flex">
-      <div className="container" style={{marginTop: "8rem"}}>
+      <div className="container" style={{marginTop: "7.9rem"}}>
         <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Contact Us</p>
         <p style={{color: "white",fontSize: "1.2vw"}}>Lorem ipsum dolor sit amet, consectetur leo lorem .<br/> Sed accumsan leo quis metus efficitur.</p>
           <div className="d-flex py-3">
@@ -31,42 +31,54 @@ function Form(){
               </div>
           </div>
       </div>
-      <div className="container" style={{marginTop: "8rem"}}> 
+      <div className="container" style={{marginTop: "7.5rem"}}> 
          <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Drop a Line</p>
-           <div className="container d-flex py-3">
-             <div className="container">
-               <div className="container">
-                 <div class="input-group mb-3" style={{width: "50%",height: "3.8rem"}}>
-                    <input type="text" class="form-control" placeholder="Name" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
-                 </div>
-               </div>
-               <div className="container">
-                 <div class="input-group mb-3" style={{width: "50%",height: "3.8rem"}}>
-                    <input type="text" class="form-control" placeholder="Email" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
-                 </div>
-               </div>
-              </div> 
-              <div className="container">
-               <div className="container">
-                 <div class="input-group mb-3" style={{width: "50%",height: "3.8rem"}}>
-                    <input type="text" class="form-control" placeholder="Phone#" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
-                 </div>
-               </div>
-               <div className="container">
-                 <div class="input-group mb-3" style={{width: "50%rem",height: "3.8rem"}}>
-                    <input type="text" class="form-control" placeholder="Budget" style={{backgroundColor: "#141730",borderColor: "gray"}}></input>
-                 </div>
-               </div>
-              </div> 
+  <div class="container">
+      <div className="d-flex" style={{}}>
+        <div class="row">
+           <div class="col">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Name" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
+              </div>
            </div>
-           <div class="input-group" style={{width: "50%",height: "7rem"}}>
-             <textarea class="form-control" placeholder="Message" style={{backgroundColor: "#141730",borderColor: "gray",marginLeft: "2.3rem"}}></textarea>
-           </div>
+        </div>
+       <div class="row">
+           <div class="col">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
+               </div>
+            </div>
+         </div>
+       </div>  
+       <div className="d-flex justify-content-between">
+         <div class="row">
+            <div class="col">
+               <div class="input-group mt-3">
+                  <input type="text" class="form-control" placeholder="Phone#" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
+               </div>
+            </div>
+        </div>
+       <div class="row">
+           <div class="col">
+              <div class="input-group mt-3">
+                <input type="email" class="form-control" placeholder="Budget" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
+               </div>
+            </div>
+         </div>
+         </div>
+             <div class="row">
+               <div class="col">
+                  <div class="input-group mt-4">
+                      <textarea class="form-control" placeholder="Message" style={{backgroundColor: "#141730",borderColor: "gray",height: "8rem"}}></textarea>
+                  </div>
+                 <div className="py-5">
+                   <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>Submit</button>
+                 </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-    <div className="d-flex justify-content-center py-5">
-      <button className="btn btn-danger" style={{width: "10rem",height: "3.4rem", fontSize: "1.2rem"}}>Submit</button>
-    </div>
+   </div>
 </div>
     )
 }
