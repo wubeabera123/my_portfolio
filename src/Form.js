@@ -31,9 +31,10 @@ function Form(){
               </div>
           </div>
       </div>
-      <div className="container" style={{marginTop: "7rem"}}> 
-  <div class="container mt-2">
-     <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Drop a Line</p>
+      <div className="container" style={{marginTop: "8rem"}}> 
+         
+  <div class="container" style={{marginTop: "-0.2arem"}}>
+    <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3vw"}}>Drop a Line</p>
         <div class="row">
            <div class="col">
               <div class="input-group mt-3">
@@ -48,19 +49,19 @@ function Form(){
         </div>
          <div class="row">
             <div class="col">
-               <div class="input-group mt-4">
+               <div class="input-group mt-3">
                   <input type="text" class="form-control" placeholder="Phone#" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
                </div>
             </div>
             <div class="col">
-              <div class="input-group mt-4">
+              <div class="input-group mt-3">
                 <input type="email" class="form-control" placeholder="Budget" style={{backgroundColor: "#141730",borderColor: "gray",padding: "1rem",paddingRight: "4rem"}}></input>
                </div>
             </div>
          </div>
              <div class="row">
                <div class="col">
-                  <div class="input-group mt-4">
+                  <div class="input-group mt-3">
                       <textarea class="form-control" placeholder="Message" style={{backgroundColor: "#141730",borderColor: "gray",height: "8rem"}}></textarea>
                   </div>
                  <div className="py-5">
