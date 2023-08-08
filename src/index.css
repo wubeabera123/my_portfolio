@@ -1,11 +1,10 @@
 body {
   margin: 0;
   background-color: #141730;
-  
+  width: 100%;
 }
 nav{
   @media screen and (max-width: 767px){
-
   }
 }
 nav ul{
