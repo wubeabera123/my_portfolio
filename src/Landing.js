@@ -13,8 +13,8 @@ function Landing(){
     <nav className="container navbar navbar-expand-md py-4 navbar-light">
         <div className="container">
            <img src={logo} style={{
-            width: "8rem",
-            height: "4rem",
+            width: "4rem",
+            height: "3rem",
             }} className="logo"/>
         </div>
            <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "#252235",borderRadius: "0.5rem"}}> 
@@ -53,7 +53,7 @@ function Landing(){
         width: "100%rem",
         height: "2.3rem",
        }}>Welcome! I'M</button>
-       <p style={{color: "white",fontFamily: "serif",marginTop:"0.5rem",fontSize:"3.5rem",fontWeight: "bold"}}>Wubeshet Abera</p>
+       <p style={{color: "white",fontFamily: "serif",marginTop:"0.5rem",fontSize:"3rem",fontWeight: "bold"}}>Wubeshet Abera</p>
        <p style={{color: "#d2d8d7",marginTop: "-1rem",fontSize: "1.2rem"}}>Frontend Developer</p>
        <p style={{color: "lightblue", marginTop: "2rem",fontSize: "0.8rem",fontWeight: "bold",lineHeight: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a nisl <br/>vel mauris egestas bibendum. Sed hendrerit, <br/>ex vel faucibus gravida, tellus sapien vestibulum velit</p>
        <div>
@@ -67,9 +67,9 @@ function Landing(){
       </div>
     <div className="col">
        <img src={person} style={{
-         width: "24rem",
+         width: "22rem",
          marginTop: "4rem",
-         height: "30rem"
+         height: "28rem"
        }}/>
     </div>
   </div>
