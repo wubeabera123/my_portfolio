@@ -10,7 +10,7 @@ function Form(){
         <div className="col">  
           <div className="container" style={{marginTop: "7.9rem"}}>
              <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3rem"}}>Contact Us</p>
-             <p style={{color: "white",fontSize: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur leo lorem .<br/> Sed accumsan leo quis metus efficitur.</p>
+             <p style={{color: "white",fontSize: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur leo lorem <br/> Sed accumsan leo quis metus efficitur.</p>
              <div className="d-flex py-3">
                <span className="d-flex" style={{fontSize: "2.5rem"}}><PiPhoneCallBold color="#FF2001"/></span>
                  <div style={{marginLeft: "0.8rem"}}>

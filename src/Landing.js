@@ -17,7 +17,7 @@ function Landing(){
             height: "4rem",
             }} className="logo"/>
         </div>
-           <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "gray",borderRadius: "0.5rem"}}> 
+           <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "#252235",borderRadius: "0.5rem"}}> 
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
              </button>
