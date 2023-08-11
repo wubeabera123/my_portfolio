@@ -17,7 +17,7 @@ function Ports(){
               </div>
             </div>
             <div className="col">
-              <div class="btn-group" style={{height: "3.5rem",width: "20rem",marginTop: "8rem"}}>
+              <div class="btn-group" style={{height: "3.5rem",width: "22rem",marginTop: "8rem"}}>
                  <button type="button" class="btn btn-danger" style={{fontSize: "0.8rem",paddingRight: "1rem"}}>All Work</button>
                  <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "0.8rem"}}>Personal Projects</button>
                  <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "0.8rem"}}>Proffesional Projects</button>
