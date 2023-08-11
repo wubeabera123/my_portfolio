@@ -48,7 +48,7 @@ function Landing(){
    <div className="container">
     <div className="row">
       <div className="col">
-    <div className="container " style={{marginTop:"8rem"}}>
+    <div className="container " style={{marginTop:"5rem"}}>
        <button className="btn " style={{
         width: "100%rem",
         height: "2.3rem",

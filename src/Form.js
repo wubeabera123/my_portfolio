@@ -10,26 +10,26 @@ function Form(){
         <div className="col">  
           <div className="container" style={{marginTop: "7.9rem"}}>
              <p style={{color: "white", fontFamily: "serif",fontWeight: "bold",fontSize: "3rem"}}>Contact Us</p>
-             <p style={{color: "white",fontSize: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur leo lorem <br/> Sed accumsan leo quis metus efficitur.</p>
+             <p style={{color: "white",fontSize: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur<br/> Sed accumsan leo quis metus efficitur.</p>
              <div className="d-flex py-3">
-               <span className="d-flex" style={{fontSize: "2.5rem"}}><PiPhoneCallBold color="#FF2001"/></span>
+               <span className="d-flex" style={{fontSize: "2.2rem"}}><PiPhoneCallBold color="#FF2001"/></span>
                  <div style={{marginLeft: "0.8rem"}}>
-                    <p style={{fontSize: "1.5rem", color: "GrayText"}}>Call me</p>
-                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.5rem"}}>+251974222863</h5>
+                    <p style={{fontSize: "1.2rem", color: "GrayText"}}>Call me</p>
+                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.3rem"}}>+251974222863</h5>
                  </div>
             </div>
-            <div className="d-flex py-3">
-               <span className="d-flex" style={{fontSize: "2.5rem",marginTop: "-1.5rem"}}><TfiEmail color="#FF0000"/></span>
+            <div className="d-flex py-3 mt-4">
+               <span className="d-flex" style={{fontSize: "2.2rem",marginTop: "-2rem"}}><TfiEmail color="#FF0000"/></span>
                   <div style={{marginLeft: "0.8rem",marginTop: "-2rem"}}>
-                    <p style={{fontSize: "1.5rem", color: "GrayText"}}>Email</p>
-                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.5rem"}}>wubeabera123@gmail.com</h5>
+                    <p style={{fontSize: "1.2rem", color: "GrayText"}}>Email</p>
+                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.3rem"}}>wubeabera123@gmail.com</h5>
                   </div>
             </div>
-            <div className="d-flex">
-               <span className="d-flex" style={{fontSize: "2.5rem",marginTop: "-0.5rem"}}><MdOutlineLocationOn color="#FF0000"/></span>
+            <div className="d-flex mt-4">
+               <span className="d-flex" style={{fontSize: "2.2rem",marginTop: "-0.5rem"}}><MdOutlineLocationOn color="#FF0000"/></span>
                   <div style={{marginLeft: "0.8rem",marginTop: "-1.2rem"}}>
-                    <p style={{fontSize: "1.5rem", color: "GrayText"}}>Address</p>
-                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.5rem"}}>Addis Ababa, Betel</h5>
+                    <p style={{fontSize: "1.2rem", color: "GrayText"}}>Address</p>
+                    <h5 style={{color: "white",marginTop: "-1rem",fontSize: "1.3rem"}}>Addis Ababa, Betel</h5>
                  </div>
             </div>
        </div>
