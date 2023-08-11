@@ -10,28 +10,28 @@ function Info(){
               <div className="row">
                   <div className="col" style={{marginTop: "2rem"}}>
                       <section id="bord1">
-                         <RiAwardFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
+                         <RiAwardFill color="#bd3846" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
                          <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3rem"}}>00</p>
                          <p style={{textAlign: "center", color: "white",fontSize: "2rem",marginTop: "-1rem"}}>Awards</p>
                        </section>
                   </div>
                   <div className="col" style={{marginTop: "2rem"}}>
                        <section id="bord2">
-                          <BsPeopleFill color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
+                          <BsPeopleFill color="#bd3846" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/>
                           <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3rem"}}>00</p>
                           <p style={{textAlign: "center", color: "white",fontSize: "2rem",marginTop: "-1rem"}}>Cleints</p>
                        </section>
                   </div>
                   <div className="col" style={{marginTop: "2rem"}}>
                        <section id="bord3">
-                          <GiCalendarHalfYear color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+                          <GiCalendarHalfYear color="#bd3846" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                           <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3rem"}}>01</p>
                           <p style={{textAlign: "center", color: "white",fontSize: "2rem",marginTop: "-1rem"}}>Years <br/>Experience</p>
                        </section>
                   </div>  
                   <div className="col" style={{marginTop: "2rem"}}>
                        <section id="bord4">
-                          <GoProjectSymlink color="red" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
+                          <GoProjectSymlink color="#bd3846" style={{fontSize: "2rem", marginTop: "-2rem",marginLeft: "1rem"}}/> 
                           <p style={{textAlign: "center", color: "white", fontWeight: "bold",fontSize: "3rem"}}>4+</p>
                           <p style={{textAlign: "center", color: "white",fontSize: "2rem",marginTop: "-1rem"}}>Projects</p>
                        </section>

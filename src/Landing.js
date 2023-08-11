@@ -13,8 +13,8 @@ function Landing(){
     <nav className="container navbar navbar-expand-md py-4 navbar-light">
         <div className="container">
            <img src={logo} style={{
-            width: "4rem",
-            height: "3rem",
+            width: "5.5rem",
+            height: "4rem",
             }} className="logo"/>
         </div>
            <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "#252235",borderRadius: "0.5rem"}}> 
@@ -23,7 +23,7 @@ function Landing(){
              </button>
            </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul className="navbar-nav ml-auto">
+           <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link" href="#">About</a>
               </li>
@@ -49,18 +49,20 @@ function Landing(){
     <div className="row">
       <div className="col">
     <div className="container " style={{marginTop:"8rem"}}>
-       <button className="btn btn-dark " style={{
+       <button className="btn " style={{
         width: "100%rem",
         height: "2.3rem",
+        backgroundColor: "#48527f",
+        color: "lightblue"
        }}>Welcome! I'M</button>
        <p style={{color: "white",fontFamily: "serif",marginTop:"0.5rem",fontSize:"3rem",fontWeight: "bold"}}>Wubeshet Abera</p>
        <p style={{color: "#d2d8d7",marginTop: "-1rem",fontSize: "1.2rem"}}>Frontend Developer</p>
        <p style={{color: "lightblue", marginTop: "2rem",fontSize: "0.8rem",fontWeight: "bold",lineHeight: "1.2rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a nisl <br/>vel mauris egestas bibendum. Sed hendrerit, <br/>ex vel faucibus gravida, tellus sapien vestibulum velit</p>
        <div>
-       <h6  style={{color: "red",fontSize: "1.5rem"}}>FOLLOW ME ON<section  style={{fontSize: "1.5rem",marginTop: "0.9rem"}}>
-        <a href="https://www.facebook.com/" style={{marginRight: "1rem"}}><MdFacebook color = "red"/></a>
-        <a href="#" style={{marginRight: "1rem"}}><FaTwitter color = "red"/></a>
-        <a href="#"><FaLinkedinIn color="red"/></a>
+       <h6  style={{color: "#48527f",fontSize: "1.5rem"}}>FOLLOW ME ON<section  style={{fontSize: "1.5rem",marginTop: "0.9rem"}}>
+        <a href="https://www.facebook.com/" style={{marginRight: "1rem"}}><MdFacebook color = "#48527f"/></a>
+        <a href="#" style={{marginRight: "1rem"}}><FaTwitter color = "#48527f"/></a>
+        <a href="#"><FaLinkedinIn color="#48527f"/></a>
        </section></h6> 
          </div>  
        </div>

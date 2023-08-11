@@ -17,26 +17,26 @@ function Ports(){
               </div>
             </div>
             <div className="col">
-              <div class="btn-group" style={{height: "3.5rem",width: "26rem",marginTop: "8rem"}}>
-                 <button type="button" class="btn btn-danger" style={{fontSize: "1rem",paddingRight: "1rem"}}>All Work</button>
-                 <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "1rem"}}>Personal Projects</button>
-                 <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "1rem"}}>Proffesional Projects</button>
+              <div class="btn-group" style={{height: "3.5rem",width: "20rem",marginTop: "8rem"}}>
+                 <button type="button" class="btn btn-danger" style={{fontSize: "0.8rem",paddingRight: "1rem"}}>All Work</button>
+                 <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "0.8rem"}}>Personal Projects</button>
+                 <button type="button" class="btn btn-primary" style={{backgroundColor: "#211930",borderColor: "#211930",fontSize: "0.8rem"}}>Proffesional Projects</button>
               </div>
             </div>
           </div>
         </div>
         <div className="container d-flex py-3 justify-content-evenly">
           <div className="row">
-             <div className="col"><img src={a} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem" }}/></div>
-             <div className="col"><img src={b} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem"  }}/></div>
-             <div className="col"><img src={c} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem"  }}/></div>
+             <div className="col"><img src={a} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem" }}/></div>
+             <div className="col"><img src={b} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem"  }}/></div>
+             <div className="col"><img src={c} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem"  }}/></div>
           </div>
         </div>
         <div className="container d-flex py-3 justify-content-evenly">
           <div className="row">
-            <div className="col"> <img src={d} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem" }}/></div>
-            <div className="col"><img src={e} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem" }}/></div>
-            <div className="col"><img src={f} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "16rem" }}/></div>
+            <div className="col"> <img src={d} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem" }}/></div>
+            <div className="col"><img src={e} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem" }}/></div>
+            <div className="col"><img src={f} style={{borderRadius: "0.5rem",marginTop: "1rem",width: "20rem" }}/></div>
           </div>
         </div>
         <div className="d-flex justify-content-center py-5">
