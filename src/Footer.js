@@ -2,8 +2,10 @@ import React from "react";
 import {MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaInstagramSquare} from "react-icons/fa";
+//import ScrollToTop from "./ScrollToTop";
 function Footer(){
     return(
+      <div>
        <div id="foot">
           <div className="circle">
              <section>
@@ -19,6 +21,8 @@ function Footer(){
           <div className="line"></div>
           <p style={{color: "white", textAlign: "center", marginTop: "1.8rem"}}>2023-Form | All right reserved</p>
        </div>
+       
+     </div> 
     )
 }
 export default Footer;

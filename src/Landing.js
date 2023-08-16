@@ -1,8 +1,8 @@
 import React from "react";
-import "./index.css";
+//import "./index.css";
 import logo from "./Image/logo.jpg";
 import person from "./Image/person.jpg";
-//import { useState } from "react";
+import { Link } from "react-router-dom";
 import {MdBorderColor, MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
@@ -17,7 +17,7 @@ function Landing(){
             height: "4rem",
             }} className="logo"/>
         </div>
-           <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "#252235",borderRadius: "0.5rem"}}> 
+           <div className="ms-auto" style={{marginTop: "-4rem",backgroundColor: "#48527f",borderRadius: "0.5rem"}}> 
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
              </button>
