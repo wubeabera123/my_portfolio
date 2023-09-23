@@ -70,8 +70,9 @@ function Landing(){
     <div className="col">
        <img src={person} style={{
          width: "22rem",
-         marginTop: "4rem",
-         height: "28rem"
+         marginTop: "2rem",
+         height: "28rem",
+         objectFit: "cover"
        }}/>
     </div>
   </div>

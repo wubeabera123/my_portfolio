@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import {MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaInstagramSquare} from "react-icons/fa";
-//import ScrollToTop from "./ScrollToTop";
+import ScrollTopButton from "./ScrollTopButton";
+
+
 function Footer(){
+  
     return(
       <div>
        <div id="foot">
@@ -21,8 +24,10 @@ function Footer(){
           <div className="line"></div>
           <p style={{color: "white", textAlign: "center", marginTop: "1.8rem"}}>2023-Form | All right reserved</p>
        </div>
-       
+       <div className='scroll'>
+         <ScrollTopButton/>
+       </div>
      </div> 
-    )
-}
+    );
+};
 export default Footer;

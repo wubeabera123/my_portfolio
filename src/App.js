@@ -6,7 +6,7 @@ import Form from './Form';
 import Info from './Info';
 import Landing from "./Landing.js";
 import Ports from './Ports';
-import ScrollToTop from './ScrollToTop';
+
 
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
        <Experience/>
        <Form/>
        <Footer/>
-       <ScrollToTop/>
     </div>
   );
 }
