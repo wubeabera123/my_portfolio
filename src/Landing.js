@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 import {MdBorderColor, MdFacebook} from "react-icons/md";
 import {FaTwitter} from "react-icons/fa";
 import {FaLinkedinIn} from "react-icons/fa";
-
+import { useNavigate ,Outlet,useParams} from "react-router-dom";
 function Landing(){
+  const navigate=useNavigate()
     return(
   <div>    
     <nav className="container navbar navbar-expand-md py-4 navbar-light">
@@ -34,17 +35,18 @@ function Landing(){
                 <a className="nav-link" href="#">Portfolio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
+                <a className="nav-link" href="#"><Link to='/experience' onClick={()=>{navigate('/experience')}} style={{textDecoration: "none", color: "#d2d8d7" }}>Experience</Link></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Contacts</a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-danger" style={{fontSize: "0.9rem",minHeight: "2.5rem",width: "7.2rem"}}>Download CV</button>
+                <button className="btn btn-danger" onClick={()=>{navigate('/mycv')}} style={{fontSize: "0.9rem",minHeight: "2.5rem",width: "7.2rem"}}>VIEW MY CV</button>
               </li>
            </ul>
         </div>
     </nav>
+    
    <div className="container">
     <div className="row">
       <div className="col">
@@ -77,6 +79,7 @@ function Landing(){
     </div>
   </div>
 </div> 
+<Outlet/>
 </div>
     );
 }
